@@ -1,5 +1,6 @@
 <?php
-// echo "hello world";
+/* This example illustrate the use of Inheritance in php; */ 
+// Parent class
 class Vehicule
 {
     // private member accesible within the class
@@ -21,11 +22,11 @@ class Vehicule
     }
     public function getName()
     {
-        return ' The car model is: ' .$this->name;
+        return ' The car Name is: ' .$this->name;
     }
 };
 
-/* Inheritance */
+/* Child class */
 class Car extends Vehicule
 {
     public function setBrand($brand)
@@ -34,9 +35,7 @@ class Car extends Vehicule
     }
 }
 
-
-//* Main Call */
-$car = new Car();
+/* Main Call */
+$car = new Car("C4");
 $car->setBrand("BMW");
-$car->getName();
-var_dump($car);
+var_dump($car->getName());
