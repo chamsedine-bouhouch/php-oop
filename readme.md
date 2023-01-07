@@ -6,12 +6,16 @@ This is a regrouping of main Object Oriented Programming notions in php
 
 ## Inheritance in object-oriented PHP
 
-`php src/inheritance.php`
+
+> execute command : `php src/inheritance.php`
 
 ## Abstract classes and methods
 
-`php src/abstractClass.php`
+> execute command : `php src/abstractClass.php`
 
 ## Interfaces and Implementation
 
-`php src/interfaces.php`
+> execute command : `php src/interfaces.php`
+## Polymorphism in PHP
+
+> execute command : `php src/polymorphism.php`
