@@ -4,7 +4,7 @@ abstract class Vehicle
 {
     protected $tankVolume;
     // Abstract classes can have non abstract methods
-    public function setTankVolume($volume)
+    public function setTankVolume(int $volume)
     {
         $this->tankVolume = $volume;
     }
@@ -30,6 +30,6 @@ class Bus extends Vehicle
 
 
 /* Main  Call */
-$car = new Bus();
-$car->setTankVolume(45);
-echo $car->CalcMillesFullTrack();
+$car = new Car();
+$car->setTankVolume(145);
+var_dump($car->CalcMillesFullTrack());

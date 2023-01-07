@@ -9,7 +9,7 @@ abstract class User
 }
 interface Author
 {
-    public function setModel($name);
+    public function setModel(int $name);
 
     public function getModel();
 }
@@ -31,4 +31,4 @@ class AuthorEditor extends User implements Author, Editor
 /* Main Call */
 $author_editor = new AuthorEditor();
 $author_editor->setModel("Chamseddine Bouhouch");
-echo $author_editor->getModel();
+var_dump($author_editor->getModel()) ;

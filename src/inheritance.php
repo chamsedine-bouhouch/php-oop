@@ -29,7 +29,8 @@ class Vehicule
 /* Child class */
 class Car extends Vehicule
 {
-    public function setBrand($brand)
+    // With Type hinting
+    public function setBrand(string $brand)
     {
         $this->brand = $brand;
     }
