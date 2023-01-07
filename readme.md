@@ -11,3 +11,7 @@ This is a regrouping of main Object Oriented Programming notions in php
 ## Abstract classes and methods
 
 `php src/abstractClass.php`
+
+## Interfaces and Implementation
+
+`php src/interfaces.php`
