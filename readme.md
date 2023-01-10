@@ -19,3 +19,20 @@ This is a regrouping of main Object Oriented Programming notions in php
 ## Polymorphism in PHP
 
 > execute command : `php src/polymorphism.php`
+
+# PHP Tutorial
+[source](https://www.phptutorial.net/p)
+
+## Traits in PHP
+
+> execute command : `php src/traits.php`
+
+
+## STATIC METHODS & PROPERTIES
+
+> execute command : `php src/constantClass.php`
+
+
+## MAGIC METHODS
+
+> execute command : `php src/magicMethods.php`
