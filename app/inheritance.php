@@ -1,7 +1,7 @@
 <?php
 /* This example illustrate the use of Inheritance in php; */ 
 // Parent class
-class Vehicule
+/* class Vehicule
 {
     // private member accesible within the class
     // The $name property has a default value of "N/A"
@@ -39,4 +39,4 @@ class Car extends Vehicule
 /* Main Call */
 $car = new Car("C4");
 $car->setBrand("BMW");
-var_dump($car->getName());
+var_dump($car->getName()); */
