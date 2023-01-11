@@ -31,13 +31,13 @@
 	// Bitwise Left shift
 	$second = 1;
 	$answer = $First << $second;
-	print_r("5 << 1 will be $answer");
+	print_r("5 << 3 will be $answer");
 	
 	print_r("\n");
 	
 	// Bitwise Right shift
 	$answer = $First >> $second;
-	print_r("5 >> 1 will be $answer");
+	print_r("5 >> 3 will be $answer");
 	
 	print_r("\n");
 ?>
